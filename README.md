@@ -1,7 +1,7 @@
 # seal-and-unseal
 Two basic scripts for Kubernetes for when you want to seal and unseal a file secret with sealed-secrets in a gitops workflow.
 
-Pretty useful if the sealed-secret you're interested in isn't on the cluster, and it makes for a clean offline-ish workflow for sealing/unsealing secrets for development.
+Pretty useful if the sealed-secret you're interested in isn't on the cluster at the moment, and it makes for a clean offline-ish workflow for sealing/unsealing secrets for development.
 
 A much nicer way to use sealed-secrets until the kubeseal CLI experience is improved.
 
