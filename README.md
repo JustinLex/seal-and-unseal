@@ -3,7 +3,7 @@ Two basic scripts for Kubernetes for when you want to seal and unseal a file sec
 
 Pretty useful if the sealed-secret you're interested in isn't on the cluster at the moment, and it makes for a clean offline-ish workflow for sealing/unsealing secrets for development.
 
-A much nicer way to use sealed-secrets until the kubeseal CLI experience is improved.
+A much nicer way to use sealed-secrets until the kubeseal CLI experience is improved. (Though Bitnami says [they're working on it](https://github.com/bitnami-labs/sealed-secrets#raw-mode-experimental))
 
 ## Usage
 1. Copy the `seal.sh` and `unseal.sh` scripts to your gitops workspace
